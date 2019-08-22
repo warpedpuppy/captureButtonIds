@@ -21,11 +21,11 @@ export default class HelloWorld extends React.Component {
                    World!
                </button>
                <button id = "Friend!"
-                   onClick = {this.handleButtonClick}>
+                   onClick = {(e) => this.handleButtonClick(e)}>
                    Friend!
                </button>
                <button id = "React!"
-                   onClick = {this.handleButtonClick}>
+                   onClick = {(e) => this.handleButtonClick(e)}>
                    React!
                </button>
            </div>
